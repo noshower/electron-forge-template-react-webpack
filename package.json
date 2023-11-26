@@ -1,0 +1,49 @@
+{
+  "name": "@yu-chen/electron-forge-template-react-webpack",
+  "version": "0.0.6",
+  "description": "Webpack-TypeScript-React template for Electron Forge",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "tmpl"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">= 16.4.0"
+  },
+  "repository": "https://github.com/noshower/electron-forge-template-react-webpack",
+  "keywords": [
+    "electron",
+    "forge",
+    "template",
+    "react",
+    "webpack",
+    "typescript"
+  ],
+  "author": "noshower",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noshower/electron-forge-template-react-webpack/issues"
+  },
+  "homepage": "https://github.com/noshower/electron-forge-template-react-webpack#readme",
+  "dependencies": {
+    "@electron-forge/shared-types": "7.1.0",
+    "@electron-forge/template-base": "7.1.0",
+    "@malept/cross-spawn-promise": "^2.0.0",
+    "debug": "4.3.4",
+    "fs-extra": "11.1.1",
+    "username": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/fs-extra": "11.0.4",
+    "typescript": "5.3.2"
+  }
+}
