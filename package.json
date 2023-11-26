@@ -1,6 +1,6 @@
 {
   "name": "@yu-chen/electron-forge-template-react-webpack",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Webpack-TypeScript-React template for Electron Forge",
   "main": "dist/index.js",
   "typings": "dist/types/index.d.ts",
